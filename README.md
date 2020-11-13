@@ -39,7 +39,7 @@ async function example () {
 
   child.stdin.end();
   console.log(await lines.readRemaining());
-  // -> ['Bye!', '', '']
+  // -> ['Bye!', '']
 }
 
 ```
